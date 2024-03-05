@@ -1,0 +1,377 @@
+@font-face {
+    font-family: "the_black";
+    src: url(/fonts/The\ Camposanto.ttf) format('woff');
+}
+
+@font-face {
+    font-family: "the_residual"; 
+    src: url(/fonts/Santos.ttf) format('woff');
+}
+
+@font-face {
+    font-family: "titulosBurger";
+    src: url(/fonts/fFinish.ttf) format('woff'); 
+
+}
+
+@font-face {
+    font-family: "descBurger";
+    src: url(/fonts/fFeelingSoon.ttf) format('woff'); 
+
+}
+
+@font-face {
+    font-family: "descLogo"; 
+    src: url(/fonts/Little\ Boy.ttf) format('woff'); 
+}
+
+@media (max-width: 767px) {
+    #carrito-desplegable {
+      position: static;
+      width: 100%;
+      max-width: none;
+    }
+
+    .inferiorInicio{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        border: 1px solid white;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background-color: #343a40; 
+        padding-top: 10px; 
+    }
+
+    .navbar-nav .nav-item {
+        padding: 10px 0;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+    .inferiorInicio{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+.nav-color{
+    background-color: #a28010;
+    color: whitesmoke;
+}
+ 
+.lista-color a{
+    list-style: none;
+    color: whitesmoke;
+}
+ 
+.nave{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.nav-link{
+    color: rgba(231, 179, 9, 0.726);
+    font-family:"the_residual";
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nav-link:hover{
+    color: rgba(255, 215, 84, 0.726);
+}
+
+#menu .card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+  
+#menu .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+  
+#menu .card-title {
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+    font-family: titulosBurger;
+    color: rgba(0, 0, 0, 0.801);
+}
+  
+#menu .card-text {
+    font-size: 1rem; 
+    font-family: descBurger;
+}
+  
+#menu .card-footer {
+    background-color: rgba(255, 255, 255, 0.096); 
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+#menu .col {
+    margin-bottom: 20px;
+}
+
+.agregar-al-carrito{
+    background-color: rgb(184, 100, 4);
+    border-color: rgb(170, 91, 0);
+}
+
+.agregar-al-carrito:hover{
+    background-color: rgb(70, 37, 0);
+    border-color: rgb(77, 41, 0);
+}
+
+.text-body-secondary{
+    font-size: 19px;
+}
+
+h1{
+    font-family: "the_black";
+    font-size: 80px;
+}
+
+
+#ubicacion{
+    color: white;
+    font-family: descBurger;
+    background-color: #0000004f;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#mapaUbi img{
+    border-radius: 50px;
+}
+
+#botonEnviar{
+    margin-top:30px;
+}
+
+.carousel-item{
+    scale: 60%;
+}
+
+#carrito-icono{
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+.btn{
+    background-color: #a28010;
+    border-color: #554307;
+}
+
+.btn:hover{
+    background-color: #cea316;
+    border-color: #b89112;
+}
+
+.contenidoUbi{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #b89112;
+}
+
+.direcciones{
+    color: white;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.direcciones:hover{
+    text-decoration: underline;
+    color: #cea316;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+#contacto{
+    color: white;
+    font-family: descBurger;
+    background-color: #0000004f;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+#mensaje-enviado {
+    display: none;
+    color: green;
+    margin-top: 10px;
+}
+
+.form-group{
+    padding: 15px;
+}
+
+#tituloMenu{
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "the_black";
+    display: flex;
+}
+
+.text-body-secondary{
+    display: flex;
+    justify-content: end;
+
+}
+ 
+.conocenos {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    padding-bottom: 90px;
+    overflow: hidden;
+    z-index: 8888;
+}
+ 
+ 
+.eslogan{
+    display: block;
+    width: 280px;
+    border-top: 1px solid white;
+    margin: 18px auto;
+}
+ 
+.eslogantexto{
+    color: #ffffff;
+    display: block;
+    width: 280px;
+    margin: 30px auto;
+    font-family: "the_residual";
+    font-size: 23px;
+}
+ 
+.descripcion{
+    color: white;
+    display: block;
+    width: 600px;
+    margin: 25px auto;
+    font-family: descLogo;
+    font-size: 25px;
+    background-color: #00000041;
+    border-radius: 10px;
+    padding: 10px;
+}
+ 
+.video-burguer{
+    height: 350px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.logoImagenInicio{
+    height: 200px;
+    border-radius: 40px;
+    text-align: center;
+    max-width: 100%;
+    box-shadow: 7px 7px 2px;
+}
+
+#carrito-icono {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 20px; 
+    position: relative;
+}
+
+#carrito-icono:hover {
+    color: rgb(129, 69, 0); 
+}
+
+#carrito-desplegable {
+    background-color: #f8f9fa; 
+    border: 1px solid #dee2e6; 
+    border-radius: 5px; 
+    padding: 10px;
+    position: fixed; 
+    bottom: 0; 
+    right: 0;
+    z-index: 1000; 
+    max-width: 300px; 
+    display: none; 
+}
+
+#lista-carrito-desplegable {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito-desplegable li {
+    border-bottom: 1px solid #dee2e6; 
+    padding: 10px;
+}
+
+.infoCursada{
+    margin: 7px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.inferiorInicio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+}
+
+.slider{
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+body {
+    background-image: url(/img/fondo\ \(2\).jpg);
+    background-attachment: fixed;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width: 767px) {
+    .inferiorInicio {
+      grid-template-columns: 1fr; 
+      grid-gap: 20px; 
+    }
+
+    .slider {
+      margin-top: 0; 
+      margin-bottom: 0; 
+    }
+
+    .descripcion {
+      width: 100%; 
+    }
+
+    .video-burguer {
+      height: auto;
+      max-width: 100%; 
+      margin-bottom: 20px; 
+    }
+  }
